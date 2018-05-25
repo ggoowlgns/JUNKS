@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jihoon.tobema">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ActActivity" />
+        <activity android:name=".PersonalActivity" />
+        <activity android:name=".PushUpActivity" />
+        <activity android:name=".RecordActivity" />
+        <activity android:name=".PushUp_Narow" />
+        <activity android:name=".PushUp_Wide" />
+        <activity android:name=".SitupActivity" />
+        <activity android:name=".LegRaiseActivity" />
+        <activity android:name=".PullUpActivity" />
+
+        <activity android:name=".CheckSetActivity"
+            android:theme="@style/Theme.AppCompat.Dialog"/>
+        <activity android:name=".CheckSet_LegRaiseActivity"
+            android:theme="@style/Theme.AppCompat.Dialog"/>
+        <activity android:name=".CheckSet_SitUpActivity"
+            android:theme="@style/Theme.AppCompat.Dialog"/>
+
+        <activity android:name=".YesOrNoActivity"
+            android:theme="@style/Theme.AppCompat.Dialog"></activity>
+    </application>
+
+</manifest>

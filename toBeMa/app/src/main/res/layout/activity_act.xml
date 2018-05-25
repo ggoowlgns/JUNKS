@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/maBackGround"
+    tools:context="com.example.jihoon.tobema.ActActivity">
+
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chesBut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/buttonshape"
+                android:gravity="center_vertical|center_horizontal"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="가         슴"
+                android:textColor="@color/maFont"
+                android:textSize="30sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                tools:layout_editor_absoluteY="121dp" />
+
+
+            <ImageButton
+                android:id="@+id/pushUpBut"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:adjustViewBounds="false"
+                android:background="@drawable/pushup_basic_but"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <ImageButton
+                android:id="@+id/narowBut"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:adjustViewBounds="false"
+                android:background="@drawable/pushp_narow_but"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="299dp" />
+
+            <ImageButton
+                android:id="@+id/wideBut"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:adjustViewBounds="false"
+                android:background="@drawable/pushup_wide_but" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/buttonshape"
+                android:gravity="center_vertical|center_horizontal"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="복        근"
+                android:textColor="@color/maFont"
+                android:textSize="30sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                tools:layout_editor_absoluteY="121dp" />
+
+            <ImageButton
+                android:id="@+id/situpBut"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:adjustViewBounds="false"
+                android:background="@drawable/situpbut"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <ImageButton
+                android:id="@+id/legRaiseBut"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:adjustViewBounds="false"
+                android:background="@drawable/legraisebut"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="299dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/buttonshape"
+                android:gravity="center_vertical|center_horizontal"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="등"
+                android:textColor="@color/maFont"
+                android:textSize="30sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                tools:layout_editor_absoluteY="121dp" />
+
+            <ImageButton
+                android:id="@+id/pullUpBUt"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:adjustViewBounds="false"
+                android:background="@drawable/pullupbut"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/maBackGround"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/countTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.57"
+                android:text="TextView"
+                android:textColor="@color/maFont"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.57"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="468dp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/pushup_narow" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/time_out"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#cccccc"
+                android:gravity="center"
+                android:text="00:00:00"
+                android:textColor="#777777"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#333333"
+                android:gravity="center"
+                android:text="기록"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/record"
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:padding="10dp"
+                android:textColor="@color/maFont"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_start"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="myOnClick"
+                    android:text="시작"
+                    android:textColor="@color/maFont" />
+
+                <Button
+                    android:id="@+id/btn_rec"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:onClick="myOnClick"
+                    android:text="기록"
+
+                    android:textColor="@color/maFont" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/saveBut2"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:onClick="myOnClick"
+
+                    android:text="저   장   하   기"
+                    android:textColor="@color/maFont" />
+
+                <Button
+                    android:id="@+id/mainBut2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:onClick="myOnClick"
+
+                    android:text="처  음  으  로"
+                    android:textColor="@color/maFont" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
